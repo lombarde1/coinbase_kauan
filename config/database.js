@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const connectDB = async () => {
   try {
-    await mongoose.connect('mongodb://darkvips:lombarde1@147.79.111.143:27017/coinbase_zapcash', {
+    await mongoose.connect('mongodb://darkvips:lombarde1@147.79.111.143:27017/coinbase_kauan', {
       useNewUrlParser: true,
       useUnifiedTopology: true,
       authSource: 'admin'
